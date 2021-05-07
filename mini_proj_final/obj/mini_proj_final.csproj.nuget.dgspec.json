@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Jatin.Sharma\\Desktop\\C#\\mini_proj_final\\mini_proj_final.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Jatin.Sharma\\Desktop\\C#\\mini_proj_final\\mini_proj_final.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jatin.Sharma\\Desktop\\C#\\mini_proj_final\\mini_proj_final.csproj",
+        "projectName": "mini_proj_final",
+        "projectPath": "C:\\Users\\Jatin.Sharma\\Desktop\\C#\\mini_proj_final\\mini_proj_final.csproj",
+        "packagesPath": "C:\\Users\\Jatin.Sharma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jatin.Sharma\\Desktop\\C#\\mini_proj_final\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jatin.Sharma\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Dapper.Extensions.NetCore": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "crud": {
+              "target": "Package",
+              "version": "[2.0.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
